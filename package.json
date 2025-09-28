@@ -1,0 +1,29 @@
+{
+  "name": "create-stack",
+  "version": "1.0.0",
+  "description": "CLI tool to create frontend stacks and full-stack boilerplates",
+  "type": "module",
+  "bin": "./index.js",
+  "keywords": [
+    "cli",
+    "create-stack",
+    "boilerplate",
+    "frontend",
+    "react",
+    "vite"
+  ],
+  "author": "nitheshkannan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitheshkannann/create-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nitheshkannann/create-stack/issues"
+  },
+  "homepage": "https://github.com/nitheshkannann/create-stack#readme"}
+}
