@@ -84,6 +84,8 @@ async function main() {
         "React Hook Form",
         "React Router",
         "TanStack Query",
+        "Zustand",
+        "Redux Toolkit",
       ],
     },
   ]);
@@ -145,6 +147,16 @@ module.exports = {
   if (libs.includes("TanStack Query")) {
     console.log(chalk.blue("Adding TanStack Query..."));
     dependencies.push("@tanstack/react-query");
+  }
+
+  if (libs.includes("Zustand")) {
+    console.log(chalk.blue("Adding Zustand for state management..."));
+    dependencies.push("zustand");
+  }
+
+  if (libs.includes("Redux Toolkit")) {
+    console.log(chalk.blue("Adding Redux Toolkit and React-Redux..."));
+    dependencies.push("@reduxjs/toolkit", "react-redux");
   }
 
   // Install dependencies
