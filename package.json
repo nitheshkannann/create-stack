@@ -1,5 +1,5 @@
 {
-  "name": "create-stack",
+  "name": "create-stack-kit",
   "version": "1.0.0",
   "description": "CLI tool to create frontend stacks and full-stack boilerplates",
   "type": "module",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/nitheshkannann/create-stack/issues"
   },
-  "homepage": "https://github.com/nitheshkannann/create-stack#readme"}
+  "homepage": "https://github.com/nitheshkannann/create-stack#readme"
 }
