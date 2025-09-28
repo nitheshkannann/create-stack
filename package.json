@@ -1,6 +1,6 @@
 {
   "name": "create-stack-kit",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "CLI tool to create frontend stacks and full-stack boilerplates",
   "type": "module",
   "bin": "./index.js",
